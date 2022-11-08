@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap');
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.link:active {
+    color: #E3B873;
+}
+
+.link:hover {
+    color: #E3B873;
+}
+
+.title {
+    font-family: 'Yeseva One';
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37.42px;
+    color: #E3B873;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;    
+}
+
+.completed-projects {
+    display: flex;
+    height: 1074px;
+    padding-top: 107px;
+    background-color: #131313;
+}
+.completed-projects__container {
+    position: relative;
+    margin: 107px auto 0;
+    max-width: 1171px;
+    height: 482.38px;
+    display: grid;
+    grid-template-columns: 246px 246px repeat(4, auto);
+    grid-template-rows: repeat(8, auto);
+}
+
+.completed-projects__title {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 253px;
+    margin: 0;
+    margin-bottom: 34px;
+}
+
+.decoration-line {
+    display: block;
+    height: 1px;
+    width: 92px;
+    background: #E3B873;
+    position: absolute;
+    inset: 140px 160px;
+}
+
+.completed-projects__text {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    height: 86px;
+    width: 442px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans';
+    margin: 0;
+    margin-right: 50px;
+    margin-bottom: 42px;
+}
+.info-block-1:nth-of-type(odd) {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.info-block-1:nth-of-type(even) {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.info-block-2:nth-of-type(odd) {
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+.info-block-2:nth-of-type(even) {
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
+.info-block__title {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+    margin-bottom: 9px;
+    text-align: left;
+}
+
+.info-block__text {
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 34px;
+}
+
+.slideshow-controls {
+    grid-column: 1/5;
+    grid-row: 6/7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 13.28px;
+    width: 205.68px;
+    margin-top: 47.1px;
+}
+
+.dot-wrapper {
+    display: flex;
+    height: 9.57px;
+    min-width: 63.78px;
+    column-gap: 17.54px;
+    margin: 0 29.5px;
+}
+.prev, .next {
+    cursor: pointer;
+    user-select: none;
+}
+
+.dot-indicator {
+    min-height: 9.57px;
+    min-width: 9.57px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.dot-indicator_active {
+    min-height: 9.57px;
+    min-width: 9.57px;
+    border-radius: 30px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.slideshow-captions {
+    grid-column: 3/-1;
+    grid-row: 1/2;
+    display: flex;
+    min-width: 623px;
+    height: 24px;
+    gap: 60.5px;
+    margin-bottom: 45.36px;
+    list-style: none;
+}
+
+.caption-text {
+    font-family: 'Yeseva One';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-transform: uppercase;   
+    margin: 0;
+    padding-bottom: 6.08px;
+    color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.caption-text_active {
+    font-family: 'Yeseva One';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-transform: uppercase;   
+    margin: 0;
+    padding-bottom: 6.08px;
+    border-bottom: 1px solid rgba(227, 184, 115, 1);
+    color: #E3B873;
+}
+
+.slideshow-container {
+    height: 482.38px;
+    width: 679px;
+    background-color: rgba(196, 196, 196, 1);
+    filter: drop-shadow(0px 50px 30px rgba(0, 0, 0, 0.15));
+    grid-column: 3/-1;
+    grid-row: 2/7;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
