@@ -1,15 +1,15 @@
 const slides = [
-    {   city: 'Rostov-on-Don LCD admiral',
+    {   city: 'Rostov-on-Don \n LCD admiral',
         area: '81 m2',
         time: '3.5 months',
-        image: "/images-content/img-slide-1.png"
+        image: "/images-content/img-slide-1.png",
     },
-    {   city: 'Sochi Thieves',
+    {   city: 'Sochi \n Thieves',
         area: '105 m2',
         time: '4 months',
         image: "/images-content/img-slide-2.png"
     },
-    {   city: 'Rostov-on-Don Patriotic',
+    {   city: 'Rostov-on-Don \n Patriotic',
         area: '93 m2',
         time: '3 months',
         image: "/images-content/img-slide-3.png"
