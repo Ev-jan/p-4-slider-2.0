@@ -38,6 +38,7 @@
     padding-top: 107px;
     background-color: #131313;
 }
+
 .completed-projects__container {
     position: relative;
     margin: 107px auto 0;
@@ -79,18 +80,22 @@
     margin-right: 50px;
     margin-bottom: 42px;
 }
+
 .info-block-1:nth-of-type(odd) {
     grid-column: 2/3;
     grid-row: 4/5;
 }
+
 .info-block-1:nth-of-type(even) {
     grid-column: 1/2;
     grid-row: 4/5;
 }
+
 .info-block-2:nth-of-type(odd) {
     grid-column: 2/3;
     grid-row: 5/6;
 }
+
 .info-block-2:nth-of-type(even) {
     grid-column: 1/2;
     grid-row: 5/6;
@@ -102,6 +107,7 @@
     margin: 0;
     margin-bottom: 9px;
     text-align: left;
+    letter-spacing: normal;
 }
 
 .info-block__text {
@@ -112,7 +118,6 @@
     font-weight: 400;
     margin: 0;
     margin-bottom: 34px;
-    width: max-content;
 }
 
 .slideshow-controls {
@@ -133,6 +138,7 @@
     column-gap: 17.54px;
     margin: 0 29.5px;
 }
+
 .prev, .next {
     cursor: pointer;
     user-select: none;
@@ -199,8 +205,3 @@
     grid-column: 3/-1;
     grid-row: 2/7;
 }
- 
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
