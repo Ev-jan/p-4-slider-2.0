@@ -192,6 +192,8 @@
     height: 482.38px;
     width: 679px;
     background-color: rgba(196, 196, 196, 1);
+    background-image: url("");
+    background-size: cover;
     filter: drop-shadow(0px 50px 30px rgba(0, 0, 0, 0.15));
     grid-column: 3/-1;
     grid-row: 2/7;
